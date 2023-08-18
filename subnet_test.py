@@ -44,7 +44,7 @@ def generate_network_info(ip_address, cidr):
     
     
 # Generate a unique code
-unique_code = 19425
+unique_code = int(input("provide unique_code: "))
 
 for j in range(5):
     problem = generate_problem(unique_code + j)
